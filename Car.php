@@ -1,4 +1,5 @@
 <?php
+require_once 'Vehicle.php';
 
 class Car extends Vehicle {
     private $doorsNum;
@@ -25,7 +26,6 @@ class Car extends Vehicle {
         return $this->itvDates;
     }
 
-    
     public function setDoorsNum($doorsNum) {
         $this->doorsNum = $doorsNum;
     }
